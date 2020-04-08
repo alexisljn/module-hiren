@@ -5,3 +5,4 @@ error_reporting(E_ALL);
 
 require('vendor/autoload.php');
 
+echo 6/0;

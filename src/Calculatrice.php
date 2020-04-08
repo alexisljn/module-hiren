@@ -21,7 +21,7 @@ class Calculatrice
     public static function division($a, $b)
     {
         if($b === 0) {
-            die;
+            throw new Exception('par zéro bouffon');
         }
 
         return $a / $b;
