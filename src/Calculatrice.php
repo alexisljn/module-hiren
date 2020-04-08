@@ -1,6 +1,8 @@
 <?php
 namespace App;
 
+use Exception;
+
 class Calculatrice
 {
     public static function add($a, $b)
